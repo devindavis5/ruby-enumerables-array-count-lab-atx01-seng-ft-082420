@@ -9,7 +9,7 @@ end
 def count_empty_strings(array)
   
   array.count do |element|
-    if element.is_a? String do
+    if element.is_a? String
     element[0] = ' ' 
   end
   end
